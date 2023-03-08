@@ -1,0 +1,4 @@
+"p == &i" é igual a 1;
+"*p - *q" é igual a 3 - 5 = -2;
+"**&p" é igual a *p que é igual a 3;
+"3 - *p/(*q) + 7" é igual a 3 - 3/5 + 7 = 3 - 0 + 7 = 10.

@@ -1,0 +1,1 @@
+"i = (*&)j" é ilegal, porque os parenteses separam *& de um operando.

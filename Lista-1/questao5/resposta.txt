@@ -1,0 +1,15 @@
+Expectativa (somente para o 0):
+contador/valor/valor/endereco/endereco
+i = 0 
+vet[0] = 1.1
+*(f + 0) = 1.1
+&vet[0] = (endereço do elemento 0 em hexadecimal maiúsculo)
+(f + 0) = (endereço do elemento 0 em hexadecimal maiúsculo)
+
+Resultado:
+contador/valor/valor/endereco/endereco
+i = 0vet[0] = 1.1*(f + 0) = 1.1&vet[0] = CB8AB0B0(f + 0) = CB8AB0B0
+i = 1vet[1] = 2.2*(f + 1) = 2.2&vet[1] = CB8AB0B4(f + 1) = CB8AB0B4
+i = 2vet[2] = 3.3*(f + 2) = 3.3&vet[2] = CB8AB0B8(f + 2) = CB8AB0B8
+i = 3vet[3] = 4.4*(f + 3) = 4.4&vet[3] = CB8AB0BC(f + 3) = CB8AB0BC
+i = 4vet[4] = 5.5*(f + 4) = 5.5&vet[4] = CB8AB0C0(f + 4) = CB8AB0C0

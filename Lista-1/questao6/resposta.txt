@@ -1,0 +1,1 @@
+"*(pulo + 2)" é o único que referencia o valor do terceiro elemento.

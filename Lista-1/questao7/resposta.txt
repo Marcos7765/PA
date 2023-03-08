@@ -1,0 +1,7 @@
+"p = mat + 1" é válido. Um "+ N" é interpretado como o N-ésimo próximo ponteiro de int
+depois de mat[0] (existindo ou não).
+"p = mat++" e "p = ++mat" são inválidos porque o valor de mat em si não pode ser
+modificado.
+"x = (*mat)++" é válido porque primeiro (*mat) ocorre, obtendo um valor inteiro,
+e então esse valor é incrementado. x armazenará o valor antes do incremento,
+entretanto.

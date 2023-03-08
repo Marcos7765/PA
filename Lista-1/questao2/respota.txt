@@ -1,0 +1,4 @@
+%x printa um inteiro como hexadecimal não assinalado e %d um valor inteiro.
+p em hexadecimal é ffe, *p+2 = 5 + 2 = 7, **&p = *p =  5, 3**p = 3 * 5 = 15,
+**&p+4 = *p + 4 = 5 + 4 = 9.
+O programa imprimirá "ffe 7 5 15 9".
