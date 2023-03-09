@@ -1,0 +1,3 @@
+É uma variável para o trecho do código referente à função.
+Pode ser utilizado para 'armazenar' funções como num array, para usá-las como
+parâmetro de outra função, criar wrappers, etc.
