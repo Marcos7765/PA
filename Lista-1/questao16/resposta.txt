@@ -1,0 +1,19 @@
+Resultado dos testes (bash testar.sh ./insert ./qsort >> resposta.txt):
+
+ITENS, MIN ./insert, MIN ./qsort, MEDIA ./insert, MEDIA ./qsort
+25, 0.000002, 0.000002, 3.200e-06 , 2.600e-06
+50, 0.000007, 0.000004, 1.140e-05 , 4.400e-06
+100, 0.000023, 0.000007, 3.480e-05 , 7.000e-06
+200, 0.000099, 0.000014, 1.180e-04 , 1.580e-05
+400, 0.000377, 0.000033, 5.624e-04 , 3.640e-05
+800, 0.001885, 0.000067, 2.442e-03 , 9.020e-05
+1600, 0.006865, 0.000134, 7.600e-03 , 1.668e-04
+3200, 0.024556, 0.000293, 3.126e-02 , 3.542e-04
+Fim do programa
+
+A função de ordenamento criada tem um desempenho estritamente pior que o qsort()
+tanto em seus tempos médios quanto nos melhores tempos.
+Foram gerados 5 vetores aleatórios para cada valor de itens e cada um foi usado
+por ambas as funções para medição dos tempos.
+Este resultado é esperado devido a complexidade média O(n²) da ordenação por
+inserção ser maior que a do qsort, de O(n*log(n)).
