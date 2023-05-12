@@ -1,3 +1,4 @@
+#include "Voxel.hpp"
 class Sculptor {
 private:
   Voxel ***v; // 3D matrix
@@ -16,10 +17,4 @@ public:
   void putEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz);
   void cutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz);
   void writeOFF(const char* filename);
-};
-
-struct Voxel {
-  float r,g,b; // Cores
-  float a; // Trasnparencia
-  bool show; // Incluido ou nao
 };
