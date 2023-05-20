@@ -61,7 +61,6 @@ void Sculptor::setColor(float r, float g, float b, float a){
 void Sculptor::putVoxel(int x, int y, int z){
     if (x >= 0 && y >= 0 && z >= 0 && x < nx && y < ny && z < nz){
     v[x][y][z] = Voxel{r, g, b, a, true};
-    std::cout << "botei um voxel\n";
     }
 }
 
@@ -235,7 +234,7 @@ void Sculptor::cutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int r
                     //int limz2 = limy2 - (j*j)/(ry*ry);
                     do{
                         if(zcenter+k>=0 && zcenter+k< nz){
-                            if(((i*i)/(float)(rx*rx)) + ((k*k)/(float)(rz*rz)) + ((j*j)/(float)(ry*ry)) <= 1){putVoxel(xcenter+i,ycenter+j,zcenter+k);}
+                            if(((i*i)/(float)(rx*rx)) + ((k*k)/(float)(rz*rz)) + ((j*j)/(float)(ry*ry)) <= 1){cutVoxel(xcenter+i,ycenter+j,zcenter+k);}
                         }
                         k++;
                     } 

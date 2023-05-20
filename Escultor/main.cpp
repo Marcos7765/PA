@@ -7,7 +7,7 @@ int main(){
     
     teste.setColor(1.0,0.0,0.0,1.0);
     
-    teste.putBox(49,40,49,45,49,40);
+    teste.putBox(49,38,28,39,49,38);
 
     teste.setColor(0.0,0.0,1.0,1.0);
 
@@ -16,8 +16,12 @@ int main(){
     teste.setColor(0.0,1.0,0.0,1.0);
 
     teste.putSphere(40,20,20, 7);
-    
-    //teste.putSphere(5,5,5,1);
+
+    teste.cutBox(37,43,23,17,23,17);
+
+    teste.cutEllipsoid(43,33,43,4, 8, 3);
+
+    teste.cutSphere(10,3,10,3);
 
     teste.writeOFF("exemplo.off");
     return 0;
