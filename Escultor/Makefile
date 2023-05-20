@@ -1,4 +1,4 @@
-FLAGS = -Wall -Wextra -pedantic -O2
+FLAGS = -Wall -Wextra -pedantic
 CC = g++ $(FLAGS)
 OBJ = main.o Sculptor.o
 out= exSculptor
