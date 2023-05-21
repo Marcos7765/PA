@@ -1,3 +1,4 @@
+/// @brief Structure for a voxel representation.
 struct Voxel {
   float r,g,b; // Cores
   float a; // Trasnparencia

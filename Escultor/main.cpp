@@ -17,6 +17,12 @@ int main(){
 
     teste.putSphere(40,20,20, 7);
 
+    teste.putVoxel(49,0,0);
+    
+    teste.putVoxel(49,1,0);
+    
+    teste.cutVoxel(49,1,0);
+
     teste.cutBox(37,43,23,17,23,17);
 
     teste.cutEllipsoid(43,33,43,4, 8, 3);
