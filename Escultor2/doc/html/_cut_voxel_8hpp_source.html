@@ -89,16 +89,26 @@ $(document).ready(function(){initNavTree('_cut_voxel_8hpp_source.html',''); init
 <div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &quot;FiguraGeometrica.hpp&quot;</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;Sculptor.hpp&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="class_cut_voxel.html">    4</a></span><span class="keyword">class </span><a class="code hl_class" href="class_cut_voxel.html">CutVoxel</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_figura_geometrica.html">FiguraGeometrica</a> {</div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>    <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>    <span class="keywordtype">int</span> x, y, z;</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>        <a class="code hl_class" href="class_cut_voxel.html">CutVoxel</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> z);</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>        <a class="code hl_class" href="class_cut_voxel.html">~CutVoxel</a>();</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        <span class="keywordtype">void</span> Draw(<a class="code hl_class" href="class_sculptor.html">Sculptor</a>&amp; <a class="code hl_class" href="class_sculptor.html">Sculptor</a>);</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>};</div>
-<div class="ttc" id="aclass_cut_voxel_html"><div class="ttname"><a href="class_cut_voxel.html">CutVoxel</a></div><div class="ttdef"><b>Definition:</b> CutVoxel.hpp:4</div></div>
-<div class="ttc" id="aclass_figura_geometrica_html"><div class="ttname"><a href="class_figura_geometrica.html">FiguraGeometrica</a></div><div class="ttdef"><b>Definition:</b> FiguraGeometrica.hpp:5</div></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">/* WARNING: THAT&#39;S A CHATGPT DOCUMENTATION. Trying it out as the classes implement</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">the same functionality i&#39;ve documented in the earlier part of the assignment. */</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_cut_voxel.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="class_cut_voxel.html">CutVoxel</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_figura_geometrica.html">FiguraGeometrica</a> {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keywordtype">int</span> x;  </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="keywordtype">int</span> y;  </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <span class="keywordtype">int</span> z;  </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <a class="code hl_function" href="class_cut_voxel.html#a32d12f653ebb96da8c3aa62994692bad">CutVoxel</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> z);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="class_cut_voxel.html#a7f5eb61ed9b3410a59e55e7815989a0b">   39</a></span>        <a class="code hl_function" href="class_cut_voxel.html#a7f5eb61ed9b3410a59e55e7815989a0b">~CutVoxel</a>();</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_cut_voxel.html#ab48e344f9eb486aca203ecc54d31f577">Draw</a>(<a class="code hl_class" href="class_sculptor.html">Sculptor</a>&amp; <a class="code hl_class" href="class_sculptor.html">Sculptor</a>);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
+<div class="ttc" id="aclass_cut_voxel_html"><div class="ttname"><a href="class_cut_voxel.html">CutVoxel</a></div><div class="ttdoc">Represents a voxel that is cut from a Sculptor.</div><div class="ttdef"><b>Definition:</b> CutVoxel.hpp:15</div></div>
+<div class="ttc" id="aclass_cut_voxel_html_a32d12f653ebb96da8c3aa62994692bad"><div class="ttname"><a href="class_cut_voxel.html#a32d12f653ebb96da8c3aa62994692bad">CutVoxel::CutVoxel</a></div><div class="ttdeci">CutVoxel(int x, int y, int z)</div><div class="ttdoc">Constructs a CutVoxel object with the specified parameters.</div><div class="ttdef"><b>Definition:</b> CutVoxel.cpp:3</div></div>
+<div class="ttc" id="aclass_cut_voxel_html_a7f5eb61ed9b3410a59e55e7815989a0b"><div class="ttname"><a href="class_cut_voxel.html#a7f5eb61ed9b3410a59e55e7815989a0b">CutVoxel::~CutVoxel</a></div><div class="ttdeci">~CutVoxel()</div><div class="ttdoc">Destroys the CutVoxel object.</div></div>
+<div class="ttc" id="aclass_cut_voxel_html_ab48e344f9eb486aca203ecc54d31f577"><div class="ttname"><a href="class_cut_voxel.html#ab48e344f9eb486aca203ecc54d31f577">CutVoxel::Draw</a></div><div class="ttdeci">void Draw(Sculptor &amp;Sculptor)</div><div class="ttdoc">Cuts the voxel from the specified Sculptor object.</div><div class="ttdef"><b>Definition:</b> CutVoxel.cpp:9</div></div>
+<div class="ttc" id="aclass_figura_geometrica_html"><div class="ttname"><a href="class_figura_geometrica.html">FiguraGeometrica</a></div><div class="ttdoc">Abstract base class for geometric figures.</div><div class="ttdef"><b>Definition:</b> FiguraGeometrica.hpp:16</div></div>
 <div class="ttc" id="aclass_sculptor_html"><div class="ttname"><a href="class_sculptor.html">Sculptor</a></div><div class="ttdoc">OFF file 3D image drawer class.</div><div class="ttdef"><b>Definition:</b> Sculptor.hpp:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,4 +1,4 @@
 <map id="PutBox" name="PutBox">
-<area shape="rect" id="node1" title=" " alt="" coords="41,80,109,107"/>
-<area shape="rect" id="node2" href="$class_figura_geometrica.html" title=" " alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node1" title="Represents a box that is placed in a Sculptor." alt="" coords="41,80,109,107"/>
+<area shape="rect" id="node2" href="$class_figura_geometrica.html" title="Abstract base class for geometric figures." alt="" coords="5,5,144,32"/>
 </map>

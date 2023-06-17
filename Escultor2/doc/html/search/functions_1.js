@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writeoff_0',['writeOFF',['../class_sculptor.html#a58cb72d22001a5034f15383ca983830c',1,'Sculptor']]]
+  ['draw_0',['Draw',['../class_cut_box.html#a6115c4c8b4ea7d65a808f2c2d4e84a69',1,'CutBox::Draw()'],['../class_cut_ellipsoid.html#abbef90a0e41631cb98dd16fa29111ef4',1,'CutEllipsoid::Draw()'],['../class_cut_sphere.html#a3dbd6259502e8ff6cc2397f61bdfa279',1,'CutSphere::Draw()'],['../class_cut_voxel.html#ab48e344f9eb486aca203ecc54d31f577',1,'CutVoxel::Draw()'],['../class_figura_geometrica.html#af78d3bb793186be78e12fdac03761204',1,'FiguraGeometrica::Draw()'],['../class_put_box.html#a3802e7731e6464221c6dce9229e38b5f',1,'PutBox::Draw()'],['../class_put_ellipsoid.html#a5821346753e3fea7ad33c5ae1acde3c0',1,'PutEllipsoid::Draw()'],['../class_put_sphere.html#a43b9c7fe2137fdc2904e56a853248d54',1,'PutSphere::Draw()'],['../class_put_voxel.html#a34f0d8ae85ba3752f1792afac3f4d177',1,'PutVoxel::Draw()']]]
 ];

@@ -1,4 +1,4 @@
 <map id="CutSphere" name="CutSphere">
-<area shape="rect" id="node1" title=" " alt="" coords="30,80,119,107"/>
-<area shape="rect" id="node2" href="$class_figura_geometrica.html" title=" " alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node1" title="Represents a sphere that is cut from a Sculptor." alt="" coords="30,80,119,107"/>
+<area shape="rect" id="node2" href="$class_figura_geometrica.html" title="Abstract base class for geometric figures." alt="" coords="5,5,144,32"/>
 </map>

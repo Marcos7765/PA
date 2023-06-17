@@ -89,29 +89,75 @@ $(document).ready(function(){initNavTree('class_figura_geometrica.html',''); ini
   <div class="headertitle"><div class="title">FiguraGeometrica Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Abstract base class for geometric figures.  
+ <a href="class_figura_geometrica.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_figura_geometrica_8hpp_source.html">FiguraGeometrica.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for FiguraGeometrica:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_figura_geometrica__inherit__graph.png" border="0" usemap="#a_figura_geometrica_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_figura_geometrica_inherit__map" id="a_figura_geometrica_inherit__map">
-<area shape="rect" title=" " alt="" coords="353,5,492,32"/>
-<area shape="rect" href="class_cut_box.html" title=" " alt="" coords="5,80,75,107"/>
-<area shape="rect" href="class_cut_ellipsoid.html" title=" " alt="" coords="99,80,197,107"/>
-<area shape="rect" href="class_cut_sphere.html" title=" " alt="" coords="222,80,311,107"/>
-<area shape="rect" href="class_cut_voxel.html" title=" " alt="" coords="335,80,414,107"/>
-<area shape="rect" href="class_put_box.html" title=" " alt="" coords="438,80,506,107"/>
-<area shape="rect" href="class_put_ellipsoid.html" title=" " alt="" coords="531,80,629,107"/>
-<area shape="rect" href="class_put_sphere.html" title=" " alt="" coords="653,80,741,107"/>
-<area shape="rect" href="class_put_voxel.html" title=" " alt="" coords="766,80,845,107"/>
+<area shape="rect" title="Abstract base class for geometric figures." alt="" coords="353,5,492,32"/>
+<area shape="rect" href="class_cut_box.html" title="Represents a box that is cut from a Sculptor." alt="" coords="5,80,75,107"/>
+<area shape="rect" href="class_cut_ellipsoid.html" title="Represents an ellipsoid that is cut from a Sculptor." alt="" coords="99,80,197,107"/>
+<area shape="rect" href="class_cut_sphere.html" title="Represents a sphere that is cut from a Sculptor." alt="" coords="222,80,311,107"/>
+<area shape="rect" href="class_cut_voxel.html" title="Represents a voxel that is cut from a Sculptor." alt="" coords="335,80,414,107"/>
+<area shape="rect" href="class_put_box.html" title="Represents a box that is placed in a Sculptor." alt="" coords="438,80,506,107"/>
+<area shape="rect" href="class_put_ellipsoid.html" title="Represents an ellipsoid that is placed in a Sculptor." alt="" coords="531,80,629,107"/>
+<area shape="rect" href="class_put_sphere.html" title="Represents a sphere that is placed in a Sculptor." alt="" coords="653,80,741,107"/>
+<area shape="rect" href="class_put_voxel.html" title="Represents a voxel that is placed in a Sculptor." alt="" coords="766,80,845,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af78d3bb793186be78e12fdac03761204"><td class="memItemLeft" align="right" valign="top"><a id="af78d3bb793186be78e12fdac03761204" name="af78d3bb793186be78e12fdac03761204"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Draw</b> (<a class="el" href="class_sculptor.html">Sculptor</a> &amp;<a class="el" href="class_sculptor.html">Sculptor</a>)=0</td></tr>
+<tr class="memitem:af78d3bb793186be78e12fdac03761204"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_figura_geometrica.html#af78d3bb793186be78e12fdac03761204">Draw</a> (<a class="el" href="class_sculptor.html">Sculptor</a> &amp;<a class="el" href="class_sculptor.html">Sculptor</a>)=0</td></tr>
+<tr class="memdesc:af78d3bb793186be78e12fdac03761204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pure virtual function for drawing the geometric figure.  <a href="class_figura_geometrica.html#af78d3bb793186be78e12fdac03761204">More...</a><br /></td></tr>
 <tr class="separator:af78d3bb793186be78e12fdac03761204"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >Abstract base class for geometric figures. </p>
+<p >The <a class="el" href="class_figura_geometrica.html" title="Abstract base class for geometric figures.">FiguraGeometrica</a> class provides an interface for drawing geometric figures in a <a class="el" href="class_sculptor.html" title="OFF file 3D image drawer class.">Sculptor</a> object. It serves as an abstract base class for specific geometric figure classes. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="af78d3bb793186be78e12fdac03761204" name="af78d3bb793186be78e12fdac03761204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af78d3bb793186be78e12fdac03761204">&#9670;&nbsp;</a></span>Draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void FiguraGeometrica::Draw </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_sculptor.html">Sculptor</a> &amp;&#160;</td>
+          <td class="paramname"><em>Sculptor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pure virtual function for drawing the geometric figure. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"><a class="el" href="class_sculptor.html" title="OFF file 3D image drawer class.">Sculptor</a></td><td>The <a class="el" href="class_sculptor.html" title="OFF file 3D image drawer class.">Sculptor</a> object where the figure will be drawn.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>The Draw function is a pure virtual function that must be overridden by derived classes. It is used to draw the specific geometric figure in the <a class="el" href="class_sculptor.html" title="OFF file 3D image drawer class.">Sculptor</a> object. </p>
+
+<p>Implemented in <a class="el" href="class_cut_box.html#a6115c4c8b4ea7d65a808f2c2d4e84a69">CutBox</a>, <a class="el" href="class_cut_ellipsoid.html#abbef90a0e41631cb98dd16fa29111ef4">CutEllipsoid</a>, <a class="el" href="class_cut_sphere.html#a3dbd6259502e8ff6cc2397f61bdfa279">CutSphere</a>, <a class="el" href="class_cut_voxel.html#ab48e344f9eb486aca203ecc54d31f577">CutVoxel</a>, <a class="el" href="class_put_box.html#a3802e7731e6464221c6dce9229e38b5f">PutBox</a>, <a class="el" href="class_put_ellipsoid.html#a5821346753e3fea7ad33c5ae1acde3c0">PutEllipsoid</a>, <a class="el" href="class_put_sphere.html#a43b9c7fe2137fdc2904e56a853248d54">PutSphere</a>, and <a class="el" href="class_put_voxel.html#a34f0d8ae85ba3752f1792afac3f4d177">PutVoxel</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/marcos/Documentos/Projetos/PA/Escultor2/<a class="el" href="_figura_geometrica_8hpp_source.html">FiguraGeometrica.hpp</a></li>
 </ul>
