@@ -1,0 +1,11 @@
+<map id="FiguraGeometrica" name="FiguraGeometrica">
+<area shape="rect" id="node1" title=" " alt="" coords="353,5,492,32"/>
+<area shape="rect" id="node2" href="$class_cut_box.html" title=" " alt="" coords="5,80,75,107"/>
+<area shape="rect" id="node3" href="$class_cut_ellipsoid.html" title=" " alt="" coords="99,80,197,107"/>
+<area shape="rect" id="node4" href="$class_cut_sphere.html" title=" " alt="" coords="222,80,311,107"/>
+<area shape="rect" id="node5" href="$class_cut_voxel.html" title=" " alt="" coords="335,80,414,107"/>
+<area shape="rect" id="node6" href="$class_put_box.html" title=" " alt="" coords="438,80,506,107"/>
+<area shape="rect" id="node7" href="$class_put_ellipsoid.html" title=" " alt="" coords="531,80,629,107"/>
+<area shape="rect" id="node8" href="$class_put_sphere.html" title=" " alt="" coords="653,80,741,107"/>
+<area shape="rect" id="node9" href="$class_put_voxel.html" title=" " alt="" coords="766,80,845,107"/>
+</map>
