@@ -1,19 +1,17 @@
+#ifndef SCULPTOR_H
+#define SCULPTOR_H
 #include "Voxel.hpp"
 /** @brief  OFF file 3D image drawer class.
  *  @details It uses [Voxels](https://en.wikipedia.org/wiki/Voxel)
  * as the building blocks of the primitive shapes.
 */
 class Sculptor {
-private:
+public:
   /// @brief Voxel matrix.
   Voxel ***v; // 3D matrix
   ///@{ @brief Max size of the given grid's dimension.
   int nx,ny,nz; // Dimensions
   ///@}
-  ///@{ @brief Current specific color value according to the [RGBA model](https://en.wikipedia.org/wiki/RGBA_color_model).
-  float r,g,b,a; // Current drawing color
-  ///@}
-public:
   /// @brief Class constructor, allocates the voxel
   /// grid to the choosen size.
   /// @param _nx Max size of the first dimension i.e. x axis.
@@ -26,3 +24,4 @@ public:
   /// @param filename Name of the destination file.
   void writeOFF(const char* filename);
 };
+#endif
